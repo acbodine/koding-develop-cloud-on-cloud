@@ -12,7 +12,7 @@ services:
 #   - sudo apt-get -qq install -y jq
 
 script:
-  - echo "TODO: do something meaningful here."
+  - echo "TODO"
 #  - docker build --force-rm -t minecraftserver/portals .
 
 after_success:
