@@ -1,0 +1,21 @@
+branches:
+  only:
+    - master
+
+sudo: required
+
+language: go
+
+services:
+  - docker
+
+# before_install:
+#   - sudo apt-get -qq update
+#   - sudo apt-get -qq install -y jq
+
+script:
+  - echo "TODO: do something meaningful here."
+#  - docker build --force-rm -t minecraftserver/portals .
+
+after_success:
+  # - TODO: Do something neat!
